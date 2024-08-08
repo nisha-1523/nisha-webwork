@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>necklace</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      padding-top: 56px;
+    }
+
+    .navbar-nav .nav-link {
+            color: white !important;
+        }
+        .navbar-nav .nav-link:hover {
+            color: black !important;
+        }
+        .dropdown-menu a {
+            color: black !important;
+        }
+        .dropdown-menu a:hover {
+            background-color:burlywood;
+            color: white !important;
+        }
+        .navbar-brand img {
+            height: 50px;
+            width: auto;
+        }
+
+        .search-form {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+        }
+        .search-form form {
+            width: 70%; 
+        }
+
+        .btn-outline-success {
+            border-color: black;
+            color: black;
+            box-shadow: none;
+        }
+
+        .btn-outline-success:hover {
+            background-color: black;
+            color: white; 
+            border-color: black;
+            box-shadow: none;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-secondary fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/inline_logo.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse search-form">
+          <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+      </div>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Products
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="home.html">Necklace</a>
+                    <a class="dropdown-item" href="earrings.html">Earring</a>
+                    <a class="dropdown-item" href="bracelet.html">Bracelet</a>
+                </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Collection
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Golden aura Collection</a>
+                    <a class="dropdown-item" href="#">Moonlit majesty collection</a>
+                    </div>
+              </li>
+              <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+  
+    <div class="container-fluid mt-5 pt-3">
+    <div class="row mb-4">
+      <div class="col">
+        <img src="images/bn-3.png" class="img-fluid" alt="Banner">
+      </div>
+    </div>
+
+    <div class="row row-cols-2 row-cols-md-3 text-center mb-3 p-3">
+        <div class="col">
+            <h8>products</h8>
+        </div>
+    </div>
+
+    <div class="container mt-5 container-custom">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 justify-content-center mb-4">
+        
+        <div class="col mb-3 d-flex flex-column align-items-center">
+          <img src="images/N-1.jpg" class="rounded img-fluid">
+          <div class="mt-3">
+            <p>Initial pendent necklace<br>Rs 1290</p>
+            <button class="btn btn-block" style="background-color:darkkhaki; width: 230px;">Add to cart</button>
+            </div>
+        </div>
+
+        <div class="col mb-4 d-flex flex-column align-items-center">
+          <img src="images/N-2.jpg" class="rounded img-fluid">
+          <div class="mt-3">
+            <p>Solitaire pendent necklace<br>Rs 999</p>
+            <button class="btn btn-block" style="background-color:darkkhaki; width: 230px;">Add to cart</button>
+          </div>
+        </div>
+
+        <div class="col mb-4 d-flex flex-column align-items-center">
+          <img src="images/N-3.jpg" class="rounded img-fluid">
+          <div class="mt-3">
+            <p>Link chain necklace <br>Rs 1120</p>
+            <button class="btn btn-block" style="background-color:darkkhaki; width: 230px;">Add to cart</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="container mt-5 container-custom">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 justify-content-center mb-4">
+          
+          <div class="col mb-3 d-flex flex-column align-items-center">
+            <img src="images/N-4.jpg" class="rounded img-fluid">
+            <div class="mt-3">
+              <p>Charm necklace<br>Rs 1290</p>
+              <button class="btn btn-block" style="background-color:darkkhaki; width: 230px;">Add to cart</button>
+              </div>
+          </div>
+  
+          <div class="col mb-4 d-flex flex-column align-items-center">
+            <img src="images/N-5.jpg" class="rounded img-fluid">
+            <div class="mt-3">
+              <p>Cuban chain necklace<br>Rs 1490</p>
+              <button class="btn btn-block" style="background-color:darkkhaki; width: 230px;">Add to cart</button>
+            </div>
+          </div>
+  
+          <div class="col mb-4 d-flex flex-column align-items-center">
+            <img src="images/N-6.jpg" class="rounded img-fluid">
+            <div class="mt-3">
+              <p>Pink solitaire pendant<br>Rs 1690</p>
+              <button class="btn btn-block" style="background-color:darkkhaki; width: 230px;">Add to cart</button>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+
+
+      <div class="container mt-5 container-custom">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 justify-content-center mb-4">
+          
+          <div class="col mb-3 d-flex flex-column align-items-center">
+            <img src="images/N-7.jpg" class="rounded img-fluid">
+            <div class="mt-3">
+              <p>Chunky link necklace<br>Rs 1390</p>
+              <button class="btn btn-block" style="background-color:darkkhaki; width: 230px;">Add to cart</button>
+              </div>
+          </div>
+  
+          <div class="col mb-4 d-flex flex-column align-items-center">
+            <img src="images/N-8.jpg" class="rounded img-fluid">
+            <div class="mt-3">
+              <p>Small beaded chain necklace<br>Rs 1290</p>
+              <button class="btn btn-block" style="background-color:darkkhaki; width: 230px;">Add to cart</button>
+            </div>
+          </div>
+  
+          <div class="col mb-4 d-flex flex-column align-items-center">
+            <img src="images/N-9.jpg" class="rounded img-fluid">
+            <div class="mt-3">
+              <p>Clear zircon pendan with chain<br>Rs 1490</p>
+              <button class="btn btn-block" style="background-color:darkkhaki; width: 230px;">Add to cart</button>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+
+    
+    <div class="container mt-5 container-custom">
+      <div class="row row-cols-2 row-cols-md-4 text-center mb-4 p-5">
+      <div class="col mb-4">
+        <img src="images/Asset5.png" alt="Fast Delivery">
+        <div><h6 class="p-2">FAST DELIVERY</h6></div>
+      </div>
+      <div class="col mb-4">
+        <img src="images/Asset6.png" alt="Cash on Delivery">
+        <div><h6 class="p-2">CASH ON DELIVERY</h6></div>
+      </div>
+      <div class="col mb-4">
+        <img src="images/Asset7.png" alt="Premium Quality">
+        <div><h6 class="p-2">PREMIUM QUALITY</h6></div>
+      </div>
+      <div class="col mb-4">
+        <img src="images/Asset8.png" alt="7 Days Return">
+        <div><h6 class="p-2">7 DAYS RETURN</h6></div>
+      </div>
+    </div>
+    </div>
+        
+        <footer style="background-color:lightgrey; padding: 20px; text-decoration-color:black; text-align: center;">
+                <div style="display: flex; justify-content: space-around; max-width: 1200px; margin: auto;">
+                  
+                    <div>
+                        <h4>About Us</h4>
+                        <p><a href="#" style="color: black;">Our Story</a></p>
+                        <p><a href="#" style="color: black;">Mission & Vision</a></p>
+                        <p><a href="#" style="color: black;">Sustainability</a></p>
+                    </div>
+            
+                    <div>
+                        <h4>Customer Service</h4>
+                        <p><a href="#" style="color: black;">Contact Us</a></p>
+                        <p><a href="#" style="color: black;">FAQ</a></p>
+                        <p><a href="#" style="color: black;">Shipping & Returns</a></p>
+                    </div>
+          
+                    <div>
+                        <h4>Follow Us</h4>
+                        <p><a href="#" style="color: black;">Instagram</a></p>
+                        <p><a href="#" style="color: black;">Facebook</a></p>
+                        <p><a href="#" style="color: black;">Twitter</a></p>
+                    </div>
+                </div>
+                <div style="margin-top: 50px;">
+                  <form>
+                    <label for="email" style="color: black;">Subscribe to our newsletter:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required style="padding: 10px; margin-top: 10px;">
+                    <button type="submit" style="padding: 10px 20px; margin-top: 10px; background-color: black; color: white; border: none;">Subscribe</button>
+                </form>
+                <p style="color: black; margin-top: 20px;">&copy; 2024 Your Brand Name. All rights reserved.</p>
+                </div>
+            </footer>
+            
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
